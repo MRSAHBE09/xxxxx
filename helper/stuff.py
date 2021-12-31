@@ -56,7 +56,7 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"A.Aok.user.first_name}`\nAsalam alikum waramhatullahi wabarkatu BE CHUS VIDEO COMPRESSOR BOT.\nYATH VIDEOS SIZE AASE ZYADE TATH KRE SIZE KM QUALITY kharab gaxene wray\nbe deme screenshots te/sample videos te.",
+       f"a.a `{ok.user.first_name}`\nAsalam alikum waramhatullahi wabarkatu BE CHUS VIDEO COMPRESSOR BOT.\nYATH VIDEOS SIZE AASE ZYADE TATH KRE SIZE KM QUALITY kharab gaxene wray\nbe deme screenshots te/sample videos te.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
