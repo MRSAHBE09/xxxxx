@@ -33,8 +33,8 @@ async def start(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/CompressorBot"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("DEVLOPER", url="t.me/kashmir_1"),
+                Button.url("LOGS", url="https://t.me/Dsrs_Group"),
             ],
         ],
     )
@@ -56,12 +56,12 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"A.Aok.user.first_name}`\nAsalam alikum waramhatullahi wabarkatu BE CHUS VIDEO COMPRESSOR BOT.\nYATH VIDEOS SIZE AASE ZYADE TATH KRE SIZE KM QUALITY kharab gaxene wray\nbe deme screenshots te/sample videos te.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("LOGS", url="https://t.me/Dsrs_Group"),
+                Button.url("DEVELOPER", url="t.me/kashmir_1"),
             ],
         ],
     )
